@@ -17,12 +17,12 @@ public class CountingService extends IntentService {
 
     public CountingService() {
         super("CountingService");
-        mHandler = new Handler();
     }
 
     @Override
     public void onCreate() {
         Log.v(TAG, "Service started");
+        mHandler = new Handler();
         super.onCreate();
     }
 

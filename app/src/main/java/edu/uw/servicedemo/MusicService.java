@@ -18,7 +18,7 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
 
     private static final String TAG = "Music";
 
-    private String songName = "The Entertaininer";
+    private String songName = "The Entertainer";
 
     private MediaPlayer mediaPlayer;
 
